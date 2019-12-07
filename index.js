@@ -22,10 +22,10 @@ function ChangeFormData() {
 
 const insideMenu = '<div class="container row border-grey">'+
   '<div class="col-lg-12 row form-group padding-form">' +
-  '<input class="border-radius-subject grey-background height-3em" type="text" placeholder="Subject:">' +
+  '<input class="border-radius-subject bg-color height-3em" type="text" placeholder="Subject:">' +
   '</div>' +
   '<div class="col-lg-12 row form-group padding-form">' +
-  '<textarea placeholder="Description.." class="border-radius-subject grey-background" rows="8" cols="50"></textarea>' +
+  '<textarea placeholder="Description.." class="border-radius-subject bg-color" rows="8" cols="50"></textarea>' +
   '</div>' +
   '<div class="col-lg-12 row form-group padding-form">' +
   '<button class="border-radius-subject blue-background padding-0-5">Submit</button>' +

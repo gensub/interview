@@ -74,8 +74,8 @@ footer {
 
 .sidebar .closebtn {
   position: absolute;
-  top: 0;
-  right: 25px;
+  top: -10px;
+  right: 0px;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -228,4 +228,8 @@ margin-top: -1em;
 
 .height-3em{
   height: 3em;
+}
+
+.bg-color{
+  background-color: #D5CEE2;
 }
