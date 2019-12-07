@@ -1,0 +1,231 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+
+.max-height{
+    height: max-content;
+}
+
+.black-background{
+  background-color: black;
+}
+
+.z-index{
+  z-index: 10000;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border-style: ridge;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.input-icons i {
+            position: absolute;
+        }
+
+        .input-icons {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            padding: 10px;
+            min-width: 40px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+
+.background-black{
+  background-color: black;
+}
+
+.padding-1em{
+  padding: 1em 1em 1em 1em;
+}
+
+.padding-bottom-1em{
+  padding-bottom: 1em;
+}
+.border-radius-search{
+  border-radius: 5px 5px 5px 5px;
+  width: 18em;
+  padding-left:30px;
+}
+
+.blue-color{
+  color: #1C52F8;
+}
+
+.padding-1em{
+  padding:1em;
+}
+.border-bottom{
+  border-bottom: 1px solid lightgrey;
+}
+
+.border-grey{
+  padding: 0em 1em 1em 1em;
+  margin: 1em 0em 1em 1em;
+  border-radius: 5px 5px 5px 5px;
+  height:20.3em;
+  width: 19em;
+}
+.navigation-menu{
+  color: #1C52F8;
+  padding:1em;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+}
+.bold{
+  font-weight: bold;
+}
+.grey-background{
+  background-color: #E3E1EB;
+}
+.image1{
+  height: 4em;
+margin-top: -1em;
+}
+.float-right{
+  float: right;
+}
+.padding-5px{
+  padding-bottom:0.7em;
+  padding-top: 0.7em;
+}
+.font-size-1-6em{
+  font-size: 1.1em;
+}
+.font-size-1em{
+  font-size: 1em;
+}
+
+.width-300px{
+  width:300px;
+}
+.font-size-9px{
+  font-size: 9px;
+}
+.font-size-2em{
+  font-size: 2em;
+}
+.padding-bottom-0-2em{
+  padding-bottom: 0.2em;
+}
+
+.row.content {
+    height: 427px !important;
+}
+
+.white-background{
+  background-color: white
+}
+
+.border-top-grey{
+  border-top: 1px solid lightgrey;
+}
+
+.color-lightgrey{
+  color: lightgrey;
+}
+
+.color-grey{
+  color: grey;
+}
+
+.padding-form{
+  padding: 1em 1em 1em 0.5em;
+}
+
+.border-radius-subject{
+  border-radius: 5px 5px 5px 5px;
+  width: 18em;
+  border-color: lightgray;
+}
+
+.blue-background{
+  background-color: blue;
+  color:white;
+}
+
+.padding-0-5{
+  padding: 0.5em;
+}
+
+.bottom-border{
+  border-bottom: 1px solid lightgrey;
+}
+
+.height-3em{
+  height: 3em;
+}
