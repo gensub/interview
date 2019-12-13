@@ -9,6 +9,14 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script type="text/javascript" src="index.js"></script>
+  <script>
+  $(function(){
+      $("#mySidebar").load("./sidebar.html");
+      $("#skillDeskApp").click(function(){
+        $("#mySidebar").width("300px");
+      });
+  });
+  </script>
   <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
 </head>
 <body>
@@ -60,92 +68,9 @@
       </div>
     </div>
     <div class="col-sm-1 sidenav black-background">
-      <img class="img-responsive" onclick="openNav()" src="images/image2.png" alt="skilldesk">
+      <img id="skillDeskApp" class="img-responsive" src="images/image2.png" alt="skilldesk">
     </div>
-
-  <div id="mySidebar" class="sidebar">
-    <div class="container">
-      <div class="row">
-      <div class="otherscreen-header background-black col-sm-3 padding-1em">
-        <img class="image1" src="images/image1.png" />
-        <input class="border-radius-search grey-background" type="text" placeholder="search...">
-      </div>
-      </div>
-      <div class="row navigation-menu width-300px bold">
-        <div class="col-sm-12">
-        <div align="left" onClick="ChangeFormData();" class="col-sm-4 font-size-1em"><i class="fa fa-chevron-left"></i>&nbsp;Back
-        </div>
-        <div id="navigation-menu"class="col-sm-4 font-size-1em">Menu
-        </div>
-        <div class="col-sm-4 font-size-1-6em"><i class="fa fa-home"></i>
-        </div>
-      </div>
-      </div>
-      <div id="data-content" class="content row grey-background">
-        <div class="container row border-grey white-background bottom-border">
-          <div class="row border-bottom">
-            <div onClick="ChangeMenuData();" class="col-lg-12 padding-5px ">
-              <div class="col-lg-offset-2 col-lg-6 bold">Shopping</div>
-              <div class="col-lg-offset-2 col-lg-2 float-right color-lightgrey"><i class="fa fa-chevron-right"></i></div>
-            </div>
-          </div>
-          <div class="row border-bottom">
-            <div class="col-lg-12 padding-5px ">
-              <div class="col-lg-offset-2 col-lg-6 bold">Options</div>
-              <div class="col-lg-offset-2 col-lg-2 float-right color-lightgrey"><i class="fa fa-chevron-right"></i></div>
-            </div>
-          </div>
-          <div class="row border-bottom bold">
-            <div class="col-lg-12 padding-5px ">
-              <div class="col-lg-offset-2 col-lg-6 bold">Bug Report</div>
-              <div class="col-lg-offset-2 col-lg-2 float-right color-lightgrey"><i class="fa fa-chevron-right"></i></div>
-            </div>
-          </div>
-          <div class="row border-bottom">
-            <div class="col-lg-12 padding-5px ">
-              <div class="col-lg-offset-2 col-lg-6 bold">Playing</div>
-              <div class="col-lg-offset-2 col-lg-2 float-right color-lightgrey"><i class="fa fa-chevron-right"></i></div>
-            </div>
-          </div>
-          <div class="row border-bottom">
-            <div class="col-lg-12 padding-5px ">
-              <div class="col-lg-offset-2 col-lg-6 bold">Games</div>
-              <div class="col-lg-offset-2 col-lg-2 float-right color-lightgrey"><i class="fa fa-chevron-right"></i></div>
-            </div>
-          </div>
-          <div class="row border-bottom">
-            <div class="col-lg-12 padding-5px ">
-              <div class="col-lg-offset-2 col-lg-6 bold">Logout</div>
-              <div class="col-lg-offset-2 col-lg-2 float-right color-lightgrey"><i class="fa fa-chevron-right"></i></div>
-            </div>
-          </div>
-          <div class="row border-bottom">
-            <div class="col-lg-12 padding-5px ">
-              <div class="col-lg-offset-2 col-lg-6 bold">iTrainer</div>
-              <div class="col-lg-offset-2 col-lg-2 float-right color-lightgrey"><i class="fa fa-chevron-right"></i></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row container-fluid grey-background width-300px font-size-2em white-background border-top-grey color-lightgrey padding-bottom-0-2em">
-        <div class="col-sm-12">
-          <div class="col-sm-4">
-            <i class="fa fa-home color-grey"></i>
-            <div class="font-size-9px">Home</div>
-          </div>
-          <div class="col-sm-4">
-            <i class="fa fa-user color-grey"></i>
-            <div class="font-size-9px ">Account</div>
-          </div>
-          <div class="col-sm-4">
-            <i class="fa fa-power-off color-grey"></i>
-            <div class="font-size-9px">Logout</div>
-          </div>
-        </div>
-      </div>
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  </div>
-
+    <div id="mySidebar" class="sidebar"></div>
   </div>
 </div>
 

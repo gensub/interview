@@ -1,0 +1,23 @@
+<html>
+<head>
+  <script>
+  $(function(){
+    $("#data-content").load("./dashboard.html");
+    $("#header").load("./header.html");
+    $("#navigation-header").load("./navigationHeader.html");
+    $("#navigation-footer").load("./navigationFooter.html");
+    $("#closeSkillDesk").click(function(){
+      $("#mySidebar").width("0px");
+    });
+  });
+  </script>
+</head>
+<body>
+<div class="container">
+  <div id="header" class="row"></div>
+  <div id="navigation-header" class="row navigation-menu width-300px bold"></div>
+  <div id="data-content" class="content row grey-background"></div>
+  <div id="navigation-footer" class="row container-fluid grey-background width-300px font-size-2em white-background border-top-grey color-lightgrey padding-bottom-0-2em"></div>
+  <a id="closeSkillDesk" href="javascript:void(0)" class="closebtn">×</a>
+</body>
+</html>
